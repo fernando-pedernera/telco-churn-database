@@ -25,4 +25,4 @@ Este documento describe el **diseño de la base de datos** para el análisis de 
 - **Demographics** y **Population** enriquecen el análisis agregando contexto.
 
 ### 🖼️ ERD
-![ERD](./er_diagram.png)
+![Diagrama ERD de Telco Churn](https://github.com/fernando-pedernera/telco-churn-database/blob/e412000e757491d07bbced38d863b6c7fa3d7c7d/model/postgres%20-%20telco_churn.png)
