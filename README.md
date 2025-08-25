@@ -1,4 +1,4 @@
-# Telco Churn DB 📊
+# Telco Churn DB 📊#
 
 Repositorio para el modelado, carga y análisis del dataset de **Customer Churn en Telco** 
 
@@ -35,7 +35,8 @@ psql -U <usuario> -d telco_churn -f sql/queries/churn_rate.sql
 ## 📊 Dataset
 
 - Fuente: IBM Sample Data  
-- Contiene información de clientes, servicios contratados y si abandonaron o no la empresa.
+- Link de la fuente original: [GitHub - Telco Customer Churn Data](https://github.com/Pranjali-d/Telco_Customer_Churn_Analysis/tree/9eeb025dcf7277d10d55efc02dc40253b91927dd/Data%20Source)  
+- Contiene información de clientes, servicios contratados y si abandonaron o no la empresa.  
 
 ## 🛠️ Tecnología
 
