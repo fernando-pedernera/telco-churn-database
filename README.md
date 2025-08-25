@@ -2,6 +2,8 @@
 
 Repositorio para el modelado, carga y análisis del dataset de **Customer Churn en Telco** 
 
+El conjunto de datos de abandono de clientes de Telco contiene información sobre una empresa de telecomunicaciones ficticia que brindó servicios de teléfono fijo e Internet a 7043 clientes en California durante el tercer trimestre. Indica qué clientes han abandonado, permanecido o se han registrado en el servicio. Se incluyen múltiples datos demográficos importantes para cada cliente, así como un Puntaje de Satisfacción, Puntaje de Abandono (Churn Score) y un índice de Valor de Vida del Cliente (CLTV).
+
 ## 🚀 Instalación y uso
 
 ### 1. Crear base de datos
