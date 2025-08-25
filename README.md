@@ -37,11 +37,9 @@ psql -U <usuario> -d telco_churn -f sql/queries/churn_rate.sql
 - Fuente: IBM Sample Data  
 - Contiene información de clientes, servicios contratados y si abandonaron o no la empresa.
 
-## 🛠️ Tecnologías
+## 🛠️ Tecnología
 
 - PostgreSQL  
-- SQL  
-- 
 
 ## 📄 Licencia
 
