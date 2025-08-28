@@ -19,6 +19,29 @@
     - Aquí creamos un índice para acelerar la búsqueda de clientes con contratos mensuales.  
     - `EXPLAIN ANALYZE` permite **verificar cuánto mejora la consulta** usando el índice.
 
+### 🔎 Ejemplo visual de un índice
+
+#### Tabla original (sin índice)
+
+| Fila | Contract       |
+|------|----------------|
+| 1    | Month-to-Month |
+| 2    | One year       |
+| 3    | Month-to-Month |
+| 4    | Two year       |
+| 5    | Month-to-Month |
+
+#### Índice `idx_contract` (mapa creado por PostgreSQL)
+
+| Valor de Contract | Filas donde aparece |
+|-------------------|----------------------|
+| Month-to-Month    | [1, 3, 5]           |
+| One year          | [2]                 |
+| Two year          | [4]                 |
+
+---
+
+
 - **ID / Primary Key:** Columna que identifica de manera única cada fila de la tabla.  
   - Ejemplo: `Customer_ID`.  
   - Garantiza unicidad y sirve para referencias en joins.
